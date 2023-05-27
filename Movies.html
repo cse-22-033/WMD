@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Warner Bros</title>
+    <link rel="icon" href="./images/WB_Logo.png" type="image/x-icon">
+    <style>
+           
+       .heading{
+        max-width: 968px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        border-bottom: 1px solid var(--main-color);
+        color: rgb(68, 0, 255);
+}
+.movies-container{
+ max-width: 968px;
+ margin-right: auto;
+ margin-left: auto;
+ display: grid;
+ grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+ gap: 1rem;
+ margin-top: 2rem;
+
+
+
+}
+.coming{
+ max-width: 968px;
+ margin-right: auto;
+ margin-left: auto;
+ display: grid;
+ grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+ gap: 1rem;
+ margin-top: 2rem;
+
+
+}
+
+.box .box-img{
+width: 100%;
+height: 270px;
+}
+.box .box-img img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
+.box .box-img:hover{
+transform: translateY(-10px);
+transition: 0.2s all linear;
+
+}
+.box h3{
+font-size: 0.9rem;
+font-weight: 500;
+}
+.box span{
+    font-size: 13px;
+    
+}
+.box-slide box{
+width: 100%;
+height: 270px;
+
+}
+.box .box-img img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
+.box .box-img:hover{
+transform: translateY(-10px);
+transition: 0.2s all linear;
+
+}
+.box h3{
+font-size: 0.9rem;
+font-weight: 500;
+}
+.box span{
+    font-size: 13px;
+
+}
+    
+
+    </style>
+</head>
+<header class="navbar">
+    <div class="container flex">
+        <img src="./WB_Logo.png" style="width: 150px; max-width: 100%; height: auto; margin: 10px; border: 1px solid black;" alt="Your Image">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="pagetab" ><a href="Movies.html">Movies</a></li>
+                <li><a href="Entertainment.html">Entertainment</a></li>
+                <li><a href="TvShows..html">Tv Shows</a></li>
+                <li><a href="Form.html">Join Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="divbar1">
+</div>
+
+<body>
+    <section class="movies" id="movies"></section>
+    <h2 class="heading ">Opening this week</h2>
+    <div class="movies-container">
+        <!--Box 1-->
+        <a href="index.html">
+        
+        <div class="box">
+        <div class="box-img">
+            <img src="./movie1.jpg" alt="">
+        </div>
+        <h3>Joker</h3>
+        <span>120 min | Drama</span>
+        </div>
+    </a>
+    
+        <!--Box 2-->
+        <div class="box">
+        <div class="box-img">
+            <img src="./movie2.jpg" alt="">
+        </div>
+        <h3>Godzilla</h3>
+        <span>120 min | action</span>
+        </div>
+    
+        <!--Box 3-->
+        <div class="box">
+        <div class="box-img">
+            <img src="./movie3.jpg" alt="">
+        </div>
+        <h3>Avengers</h3>
+        <span>120 min | adventure</span>
+    
+    </div>
+        <!--Box 4-->
+        <div class="box">
+        <div class="box-img">
+            <img src="./Movie6.jpg" alt="">
+        </div>
+        <h3>Batman</h3>
+        <span>120 min | Thriller</span>
+        
+    </div>
+        <!--Box 5-->
+        <div class="box">
+        <div class="box-img">
+            <img src="./movie4.jpg" alt="">
+        </div>
+        <h3>Star Wars</h3>
+        <span>120 min | adventure</span>
+    </div>
+     <!--Box 6-->
+     <div class="box">
+        <div class="box-img">
+            <img src="./movie5.jpg" alt="">
+        </div>
+        <h3>Aliens</h3>
+        <span>120 min | Horror</span>
+    </div>
+    <!--Box 7-->
+    <div class="box">
+        <div class="box-img">
+            <img src="./movie8.jpg" alt="">
+        </div>
+        <h3>Dune</h3>
+        <span>120 min | Thriller </span>
+    </div>
+
+     <!--Box 8-->
+    <div class="box">
+        <div class="box-img">
+            <img src="./movie9.jpg" alt="">
+        </div>
+        <h3>Inception</h3>
+        <span>120 min | Thriller </span>
+    </div>
+    <!--Box 9-->
+    <div class="box">
+        <div class="box-img">
+            <img src="./movie10.jpg" alt="">
+        </div>
+        <h3>Lord of the Rings</h3>
+        <span>120 min | Thriller </span>
+    </div>
+  
+    </div>
+    <br>
+    <h2 class="heading ">coming soon</h2>
+</section>
+<section class = "coming" id="coming">
+    
+    <div class="movies-container">
+        <!--Box 1-->
+        <div class="box">
+        <div class="box-img">
+            <img src="./movie1.jpg" alt="">
+        </div>
+        <h3>Joker</h3>
+        <span>120 min | Drama</span>
+        </div>
+    
+        <!--Box 2-->
+        <div class="box">
+        <div class="box-img">
+            <img src="./movie2.jpg" alt="">
+        </div>
+        <h3>Godzilla</h3>
+        <span>120 min | action</span>
+        </div>
+    
+        <!--Box 3-->
+        <div class="box">
+        <div class="box-img">
+            <img src="./movie3.jpg" alt="">
+        </div>
+        <h3>Avengers</h3>
+        <span>120 min | adventure</span>
+    
+    </div>
+        <!--Box 4-->
+        <div class="box">
+        <div class="box-img">
+            <img src="./Movie6.jpg" alt="">
+        </div>
+        <h3>Batman</h3>
+        <span>120 min | Thriller</span>
+        
+    </div>
+        <!--Box 5-->
+        <div class="box">
+        <div class="box-img">
+            <img src="./movie4.jpg" alt="">
+        </div>
+        <h3>Star Wars</h3>
+        <span>120 min | adventure</span>
+    </div>
+     <!--Box 6-->
+     <div class="box">
+        <div class="box-img">
+            <img src="./movie5.jpg" alt="">
+        </div>
+        <h3>Aliens</h3>
+        <span>120 min | Horror</span>
+    </div>
+    <!--Box 7-->
+    <div class="box">
+        <div class="box-img">
+            <img src="./movie8.jpg" alt="">
+        </div>
+        <h3>Dune</h3>
+        <span>120 min | Thriller </span>
+    </div>
+
+     <!--Box 8-->
+    <div class="box">
+        <div class="box-img">
+            <img src="./movie9.jpg" alt="">
+        </div>
+        <h3>Inception</h3>
+        <span>120 min | Thriller </span>
+    </div>
+    <!--Box 9-->
+    <div class="box">
+        <div class="box-img">
+            <img src="./movie10.jpg" alt="">
+        </div>
+        <h3>Lord of the Rings</h3>
+        <span>120 min | Thriller </span>
+    </div>
+    
+    </div>
+</section>
+<br>
+<h2 class="heading ">Whats Hot</h2>
+</section>
+<section class = "Whats Hot" id="Whats Hot">
+<div class="movies-container">
+    <!--Box 1-->
+    <div class="box">
+    <div class="box-img">
+        <img src="./movie1.jpg" alt="">
+    </div>
+    <h3>Joker</h3>
+    <span>120 min | Drama</span>
+    </div>
+
+    <!--Box 2-->
+    <div class="box">
+    <div class="box-img">
+        <img src="./movie2.jpg" alt="">
+    </div>
+    <h3>Godzilla</h3>
+    <span>120 min | action</span>
+    </div>
+
+    <!--Box 3-->
+    <div class="box">
+    <div class="box-img">
+        <img src="./movie3.jpg" alt="">
+    </div>
+    <h3>Avengers</h3>
+    <span>120 min | adventure</span>
+
+</div>
+    <!--Box 4-->
+    <div class="box">
+    <div class="box-img">
+        <img src="./Movie6.jpg" alt="">
+    </div>
+    <h3>Batman</h3>
+    <span>120 min | Thriller</span>
+    
+</div>
+    <!--Box 5-->
+    <div class="box">
+    <div class="box-img">
+        <img src="./movie4.jpg" alt="">
+    </div>
+    <h3>Star Wars</h3>
+    <span>120 min | adventure</span>
+</div>
+ <!--Box 6-->
+ <div class="box">
+    <div class="box-img">
+        <img src="./movie5.jpg" alt="">
+    </div>
+    <h3>Aliens</h3>
+    <span>120 min | Horror</span>
+</div>
+<!--Box 7-->
+<div class="box">
+    <div class="box-img">
+        <img src="./movie8.jpg" alt="">
+    </div>
+    <h3>Dune</h3>
+    <span>120 min | Thriller </span>
+</div>
+
+ <!--Box 8-->
+<div class="box">
+    <div class="box-img">
+        <img src="./movie9.jpg" alt="">
+    </div>
+    <h3>Inception</h3>
+    <span>120 min | Thriller </span>
+</div>
+<!--Box 9-->
+<div class="box">
+    <div class="box-img">
+        <img src="./movie10.jpg" alt="">
+    </div>
+    <h3>Lord of the Rings</h3>
+    <span>120 min | Thriller </span>
+</div>
+
+
+</section>
+<!--my swiper js-->>
+
+    
+</body>
+<footer class="navbar">
+    <div class="container2 flex2">
+        <ul>
+            <li><h3>Contact Us</h3></li>
+            <li>New York</li>
+            <li>100 Queen St. W.</li>
+            <li>Brooklyn</li>
+            <li>M5G</li>
+            <li>369000</li>
+        </ul>
+        
+        <nav>
+            <ul>
+                <li><h3>Site Links</h3></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Entertainment.html">Lifestyle</a></li>
+                <li><a href="TvShows..html">Tv Shows</a></li>
+                <li><a href="Form.html">Join Us</a></li>
+            </ul>
+        </nav>
+        <img src="./WB_Logo.png" alt="Torontologo">
+    </div>
+
+    
+    <div class="socials">
+        <a href="https://www.facebook.com/WarnerBrosPictures/"><i class="fab fa-facebook grow"></i></a>
+        <a href="https://twitter.com/warnerbros?lang=en"><i class="fab fa-twitter-square grow"></i></a>
+        <a href="https://www.instagram.com/wbpictures/?hl=en"><i class="fab fa-instagram grow"></i></a>
+        TM & © 2023 Warner Bros. Entertainment Inc. All rights reserved.
+    </div>
+</footer>
+</html>
